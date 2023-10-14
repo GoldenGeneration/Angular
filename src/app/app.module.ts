@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListComponent } from './event-list.component';
-import { EventThumbnailComponent } from './event-thumbnail.component';
+import { ListComponent } from './events/event-list.component';
+import { EventThumbnailComponent } from './events/event-thumbnail.component';
 
 @NgModule({
   declarations: [
